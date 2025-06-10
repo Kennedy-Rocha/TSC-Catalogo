@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+TSC-Catalogo: Catálogo de Test smells em Cypress
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Neste repositório você encontrará um catálogo de Test Smells para Cypress, que são más práticas de teste que podem levar a testes frágeis e difíceis de manter. Além de métodos de refatoração para evitar esses problemas.
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+Acesse `TSC-Catalogo website <https://tsc-catalogo.readthedocs.io/pt/latest/usage.html/>`_ para ter acesso ao catálogo completo.
