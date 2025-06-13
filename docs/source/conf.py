@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Catálogo - TSC'
+copyright = '2025, Kennedy Anderson'
+author = 'Kennedy Anderson Andrade Rocha'
 
 release = '0.1'
 version = '0.1.0'
