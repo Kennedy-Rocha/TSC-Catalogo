@@ -16,3 +16,5 @@ Surge quando não são utilizados mecanismos como fixtures ou geração dinâmic
 Torna os testes pouco reutilizáveis, difíceis de manter e frágeis a mudanças no ambiente.
 
 **Estratégias de refatoração**
+
+* :ref:`Isole os Dados de Teste com Fixtures`

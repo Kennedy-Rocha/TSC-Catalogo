@@ -16,3 +16,5 @@ Ocorre quando são utilizados seletores baseados em classes dinâmicas, hierarqu
 Aumenta significativamente o custo de manutenção, uma vez que alterações na interface frequentemente quebram os testes e exigem atualizações constantes dos seletores. Isso pode levar a uma falsa sensação de falhas nos testes, mesmo quando a funcionalidade não foi alterada.
 
 **Estratégias de refatoração**
+
+* :ref:`Utilize Atributos de Teste para Seletores Estáveis`

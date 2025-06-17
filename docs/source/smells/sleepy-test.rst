@@ -16,3 +16,5 @@ Ocorre quando os testes dependem de esperas fixas para garantir que a aplicaçã
 Testes lentos, não determinísticos e suscetíveis a erros de timing, dificultando a identificação de falhas reais e aumentando o tempo de execução dos testes.
 
 **Estratégias de refatoração**
+
+* :ref:`Adote Esperas Condicionais`

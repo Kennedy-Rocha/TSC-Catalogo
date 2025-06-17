@@ -16,3 +16,6 @@ Surge quando os testes não são bem documentados, possuem nomes genéricos ou n
 Torna os testes difíceis de entender, o que pode levar a mal-entendidos sobre o que está sendo testado e a possíveis falhas na manutenção futura.
 
 **Estratégias de refatoração**
+
+* :ref:`Nomeie Testes e Blocos com Clareza e Consistência`
+* :ref:`Divida Testes Longos em Blocos it Focados`

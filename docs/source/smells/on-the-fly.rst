@@ -16,3 +16,5 @@ Ocorre quando os testes são fortemente acoplados a dados gerados dinamicamente 
 Gera testes frágeis e suscetíveis a falhas não relacionadas diretamente à funcionalidade testada.
 
 **Estratégias de refatoração**
+
+* :ref:`Isole os Dados de Teste com Fixtures`

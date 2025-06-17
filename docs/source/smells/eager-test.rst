@@ -16,3 +16,5 @@ Ocorre quando há acoplamento excessivo entre diferentes verificações, geralme
 Viola o princípio da responsabilidade única, dificulta a detecção precisa de falhas e prejudica a rastreabilidade de problemas. Quando um teste falha, pode ser difícil identificar qual parte específica do comportamento esperado não foi atendida, levando a uma depuração mais complexa e demorada.
 
 **Estratégias de refatoração**
+
+* :ref:`Divida Testes Longos em Blocos it Focados`

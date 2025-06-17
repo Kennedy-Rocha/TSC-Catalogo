@@ -16,3 +16,5 @@ Aparece quando os nomes dos testes não refletem claramente o comportamento test
 Reduz a clareza, dificulta o entendimento do que está sendo validado e aumenta o tempo para manutenção e depuração dos testes.
 
 **Estratégias de refatoração**
+
+* :ref:`Nomeie Testes e Blocos com Clareza e Consistência`
