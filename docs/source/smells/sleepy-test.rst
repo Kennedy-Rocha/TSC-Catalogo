@@ -3,7 +3,7 @@ Sleepy Test
 
 **Descrição**
 
-Uso excessivo de esperas fixas cy.wait() como solução para problemas de sincronização ou temporização.
+Uso excessivo de esperas fixas ``cy.wait()`` como solução para problemas de sincronização ou temporização.
 
 **Contexto de ocorrência**
 
@@ -17,4 +17,4 @@ Testes lentos, não determinísticos e suscetíveis a erros de timing, dificulta
 
 **Estratégias de refatoração**
 
-* :ref:`Adote Esperas Condicionais`
+* :doc:`Espera condicional </refatoracao/espera-condicional>`

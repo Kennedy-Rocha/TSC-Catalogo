@@ -17,4 +17,4 @@ Aumenta significativamente o custo de manutenção, uma vez que alterações na 
 
 **Estratégias de refatoração**
 
-* :ref:`Utilize Atributos de Teste para Seletores Estáveis`
+* :doc:`Seletores Exclusivos </refatoracao/seletores-exclusivos>`

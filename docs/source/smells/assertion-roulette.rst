@@ -7,7 +7,7 @@ Múltiplas asserções encadeadas sem mensagens descritivas, dificultando a comp
 
 **Contexto de ocorrência**
 
-O Cypress permite encadeamento de asserções via should(), porém sem suporte a mensagens personalizadas, tornando os erros difíceis de rastrear quando ocorrem.
+O Cypress permite encadeamento de asserções via ``should()``, porém sem suporte a mensagens personalizadas, tornando os erros difíceis de rastrear quando ocorrem.
 
 **Exemplo**
 
@@ -17,5 +17,5 @@ Reduz a clareza dos testes e aumenta o tempo necessário para depuração de fal
 
 **Estratégias de refatoração**
 
-* :ref:`Utilize cy.log() para Explicitar Verificações`
-* :ref:`Divida Testes Longos em Blocos it Focados`
+* :doc:`Validacões rotuladas </refatoracao/validacoes-rotuladas>`
+* :doc:`Blocos it curtos </refatoracao/blocos-it-curtos>`

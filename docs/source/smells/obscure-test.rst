@@ -17,5 +17,5 @@ Torna os testes difíceis de entender, o que pode levar a mal-entendidos sobre o
 
 **Estratégias de refatoração**
 
-* :ref:`Nomeie Testes e Blocos com Clareza e Consistência`
-* :ref:`Divida Testes Longos em Blocos it Focados`
+* :doc:`Nomeação consistente</refatoracao/nomes-claros>`
+* :doc:`Blocos it curtos </refatoracao/blocos-it-curtos>`

@@ -3,11 +3,11 @@ Unsuitable Naming
 
 **Descrição**
 
-Uso de nomes pouco descritivos ou vagos nos testes, como Test1 ou CheckSomething.
+Uso de nomes pouco descritivos ou vagos nos testes, como ``Test1`` ou ``CheckSomething``.
 
 **Contexto de ocorrência**
 
-Aparece quando os nomes dos testes não refletem claramente o comportamento testado, estão vagos demais ou imprecisos, o que dificulta o entendimento e manutenção
+Aparece quando os nomes dos testes não refletem claramente o comportamento testado, estão vagos demais ou imprecisos, o que dificulta o entendimento e manutenção.
 
 **Exemplo**
 
@@ -17,4 +17,4 @@ Reduz a clareza, dificulta o entendimento do que está sendo validado e aumenta 
 
 **Estratégias de refatoração**
 
-* :ref:`Nomeie Testes e Blocos com Clareza e Consistência`
+* :doc:`Blocos it curtos </refatoracao/blocos-it-curtos>`

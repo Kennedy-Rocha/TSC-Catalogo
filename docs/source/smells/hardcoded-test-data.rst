@@ -17,4 +17,4 @@ Torna os testes pouco reutilizáveis, difíceis de manter e frágeis a mudanças
 
 **Estratégias de refatoração**
 
-* :ref:`Isole os Dados de Teste com Fixtures`
+* :doc:`Dados de teste em Fixtures </refatoracao/dados-em-fixtures>`

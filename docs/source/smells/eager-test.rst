@@ -7,7 +7,7 @@ Eager Test
 
 **Contexto de ocorrência**
 
-Ocorre quando há acoplamento excessivo entre diferentes verificações, geralmente com múltiplos comandos should() encadeados ou quando um teste é escrito para cobrir uma ampla gama de casos de uso em vez de focar em um único comportamento.
+Ocorre quando há acoplamento excessivo entre diferentes verificações, geralmente com múltiplos comandos ``should()`` encadeados ou quando um teste é escrito para cobrir uma ampla gama de casos de uso em vez de focar em um único comportamento.
 
 **Exemplo**
 
@@ -17,4 +17,4 @@ Viola o princípio da responsabilidade única, dificulta a detecção precisa de
 
 **Estratégias de refatoração**
 
-* :ref:`Divida Testes Longos em Blocos it Focados`
+* :doc:`Blocos it curtos </refatoracao/blocos-it-curtos>`

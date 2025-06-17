@@ -7,7 +7,7 @@ Sequências de comandos são repetidas em múltiplos testes, sem abstração ade
 
 **Contexto de ocorrência**
 
-O modelo declarativo do Cypress, que concentra comandos dentro dos blocos it, favorece a repetição de ações comuns como login, navegação ou preenchimento de formulários em vários cenários de teste. Isso leva a uma duplicação desnecessária de código.
+O modelo declarativo do Cypress, que concentra comandos dentro dos blocos ``it``, favorece a repetição de ações comuns como login, navegação ou preenchimento de formulários em vários cenários de teste. Isso leva a uma duplicação desnecessária de código.
 
 **Exemplo**
 
@@ -17,4 +17,4 @@ Aumenta o custo de manutenção e gera inconsistências quando uma alteração p
 
 **Estratégias de refatoração**
 
-* :ref:`Crie Comandos Reutilizáveis com Cypress.Commands.add()`
+* :doc:`Comandos reutilizáveis </refatoracao/comandos-reutilizaveis>`

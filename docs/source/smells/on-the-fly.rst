@@ -17,4 +17,4 @@ Gera testes frágeis e suscetíveis a falhas não relacionadas diretamente à fu
 
 **Estratégias de refatoração**
 
-* :ref:`Isole os Dados de Teste com Fixtures`
+* :doc:`Dados de teste em Fixtures </refatoracao/dados-em-fixtures>`
