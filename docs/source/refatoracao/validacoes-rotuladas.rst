@@ -8,6 +8,7 @@ Evite realizar múltiplas asserções consecutivas utilizando apenas ``should()`
 **Exemplo prático**
 
 No exemplo a seguir, podemos aplicar a estratégia de refatoração para melhorar a clareza do teste.
+
 .. code-block:: javascript
 
   it('edits a comment successfully', () => {
@@ -68,4 +69,4 @@ Adicionando logs para explicitar as verificações, o código ficaria assim:
     });
   });
 
-Importane: Comentários adicionados em português para facilitar o entendimento deste artigo, mas em caso real deve seguir o idioma que o projeto utiliza.
+Importante: Comentários adicionados em português para facilitar o entendimento deste artigo, mas em caso real deve seguir o idioma que o projeto utiliza.
