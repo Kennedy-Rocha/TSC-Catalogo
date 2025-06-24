@@ -11,6 +11,17 @@ Ocorre quando são utilizados seletores baseados em classes dinâmicas, hierarqu
 
 **Exemplo**
 
+No exemplo a seguir, temos o uso de seletores frágeis, baseado em atributos que podem mudar facilmente, como classes CSS e names.
+
+.. code-block:: javascript
+    it('should display current values in form', () => {
+        cy.get('input[name="name"]').should('have.value', 'Project name');
+        cy.get('input[name="url"]').should('have.value', 'https://www.testurl.com');
+        cy.get('.ql-editor').should('contain', 'Project description');
+        cy.selectShouldContain('category', 'Software');
+    });
+
+
 **Impacto na manutenibilidade e qualidade dos testes**
 
 Aumenta significativamente o custo de manutenção, uma vez que alterações na interface frequentemente quebram os testes e exigem atualizações constantes dos seletores. Isso pode levar a uma falsa sensação de falhas nos testes, mesmo quando a funcionalidade não foi alterada.

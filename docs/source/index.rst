@@ -14,10 +14,8 @@ Test Smells
 * :doc:`Eager Test </smells/eager-test>`
 * :doc:`Fragile Locators </smells/fragile-locators>`
 * :doc:`Hardcoded Test Data </smells/hardcoded-test-data>`
-* :doc:`Obscure Test </smells/obscure-test>`
 * :doc:`On the Fly </smells/on-the-fly>`
 * :doc:`Sleepy Test </smells/sleepy-test>`
-* :doc:`Stinky Synchronization </smells/stinky-synchronization>`
 * :doc:`Unsuitable Naming </smells/unsuitable-naming>`
 
 .. toctree::
@@ -30,10 +28,8 @@ Test Smells
    /smells/eager-test
    /smells/fragile-locators
    /smells/hardcoded-test-data
-   /smells/obscure-test
    /smells/on-the-fly
    /smells/sleepy-test
-   /smells/stinky-synchronization
    /smells/unsuitable-naming
    
 
