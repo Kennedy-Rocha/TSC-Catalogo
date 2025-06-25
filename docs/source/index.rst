@@ -3,7 +3,7 @@ Bem vindo ao Catálogo - TSC: Catálogo de Test Smells em Cypress
 
 Catálogo-TSC é um catálogo de Test Smells para Cypress, que são más práticas de teste que podem levar a testes frágeis e difíceis de manter. Além disso, o projeto oferece métodos de refatoração para evitar esses problemas.
 
-Inicialmente, o catálogo conta com 10 Test Smells, que podem ser consultados juntamente com suas respectivas descrições e métodos de refatoração. O objetivo é ajudar desenvolvedores e equipes a identificar e corrigir problemas comuns em testes automatizados, melhorando a qualidade e a manutenibilidade dos testes.
+Inicialmente, o catálogo conta com 8 Test Smells, que podem ser consultados juntamente com suas respectivas descrições e métodos de refatoração. O objetivo é ajudar desenvolvedores e equipes a identificar e corrigir problemas comuns em testes automatizados, melhorando a qualidade e a manutenibilidade dos testes.
 
 Test Smells 
 ------------------------------
