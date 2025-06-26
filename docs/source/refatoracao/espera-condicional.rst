@@ -10,6 +10,7 @@ Evite o uso de comandos de espera fixa como ``cy.wait(5000)``, que introduzem de
 No exemplo a seguir, podemos aplicar a estratégia de refatoração para melhorar a clareza do teste.
 
 .. code-block:: javascript
+    
     it('repeats slides when swipes right', () => {
         for (let i = 0; i < 17; i++) {
             cy.get('.BrainhubCarousel__arrowRight').trigger('click');
@@ -29,6 +30,7 @@ No exemplo a seguir, podemos aplicar a estratégia de refatoração para melhora
 Podemos substituir as esperas fixas por esperas condicionais, em vez de esperar um tempo fixo, podemos aguardar que o elemento esteja ativo e visível antes de prosseguir.
 
 .. code-block:: javascript
+
     it('repeats slides when swipes right', () => {
         for (let i = 0; i < 17; i++) {
             cy.get('.BrainhubCarousel__arrowRight')

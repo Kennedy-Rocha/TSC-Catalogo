@@ -10,6 +10,7 @@ Evite utilizar seletores frágeis baseados em classes CSS, posições no DOM ou 
 No exemplo a seguir, podemos aplicar a estratégia de refatoração para melhorar a clareza do teste.
 
 .. code-block:: javascript
+
     it('should display current values in form', () => {
         cy.get('input[name="name"]').should('have.value', 'Project name');
         cy.get('input[name="url"]').should('have.value', 'https://www.testurl.com');
@@ -20,6 +21,7 @@ No exemplo a seguir, podemos aplicar a estratégia de refatoração para melhora
 Podemos substituir os seletores frágeis por atributos de teste, tornando-os mais estáveis e menos suscetíveis a quebras:
 
 .. code-block:: javascript
+    
     it('should display current values in form', () => {
         cy.get('[data-cy="project-name"]').should('have.value', 'Project name');
         cy.get('[data-cy="project-url"]').should('have.value', 'https://www.testurl.com');
