@@ -41,7 +41,7 @@ No exemplo a seguir, podemos aplicar a estratégia de refatoração para melhora
         });
     });
 
-Podemos substituir o nomes vagos por nomes mais descritivos, que indiquem claramente o que está sendo testado:
+Podemos substituir nomes vagos por nomes mais descritivos, que indiquem claramente o que está sendo testado:
 
 .. code-block:: javascript
 
